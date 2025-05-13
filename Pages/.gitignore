@@ -1,0 +1,25 @@
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Playwright-related files
+playwright-report/
+playwright/.cache/
+
+# Logs
+*.log
+
+# IDE-specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
