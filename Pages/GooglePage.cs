@@ -22,8 +22,8 @@ namespace NUnitPlaywrightProject.Pages
 
         public async Task SearchFor(string query)
         {
-            await _page.FillAsync("input[name='q']", query);
-            await _page.PressAsync("input[name='q']", "Enter");
+            await _page.FillAsync("//*[@name='q']", query);
+            await _page.PressAsync("//*[@name='q']", "Enter");
         }
     }
 }
